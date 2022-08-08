@@ -29,7 +29,6 @@ cargo build --release
 
 %install
 install -D -p -s -m 755 target/release/%{name} %{buildroot}%{_bindir}/%{name}
-install -D -p -m 644 %{name}.1 %{buildroot}%{_mandir}/man1/%{name}.1
 
 
 %check
@@ -38,13 +37,13 @@ cargo test
 
 %files
 %license LICENSE
-%doc README.md CHANGELOG.md CONTRIBUTING.md %{name}.pdf
+%doc README.md CHANGELOG.md CONTRIBUTING.md
 %{_bindir}/%{name}
-%{_mandir}/man1/*
 
 %changelog
 * Mon Aug 08 2022 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 4.2.1-1
 - Release 4.2.1
+- Removed texlab.pdf and texlab.1
 * Tue Jul 06 2022 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 4.2.0-1
 - Release 4.2.0
 * Mon Jan 18 2021 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.2.2-1
