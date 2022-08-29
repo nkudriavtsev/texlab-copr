@@ -1,5 +1,5 @@
 Name: texlab
-Version: 4.2.1
+Version: 4.2.2
 Release: 1%{?dist}
 Summary: texlab language server
 License: GPL-3.0
@@ -41,6 +41,8 @@ cargo test
 %{_bindir}/%{name}
 
 %changelog
+* Mon Aug 29 2022 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 4.2.2-1
+- Release 4.2.2
 * Mon Aug 08 2022 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 4.2.1-1
 - Release 4.2.1
 - Removed texlab.pdf and texlab.1
