@@ -42,7 +42,7 @@ cargo test
 
 %changelog
 * Mon Dec 04 2023 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.12.0-1
-- Release 5.11.0
+- Release 5.12.0
 * Mon Nov 06 2023 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.11.0-1
 - Release 5.11.0
 * Wed Oct 18 2023 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.10.1-1
