@@ -1,5 +1,5 @@
 Name: texlab
-Version: 5.12.3
+Version: 5.12.4
 Release: 1%{?dist}
 Summary: texlab language server
 License: GPL-3.0
@@ -41,6 +41,8 @@ cargo test
 %{_bindir}/%{name}
 
 %changelog
+* Tue Feb 27 2024 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.12.4-1
+- Release 5.12.4
 * Mon Jan 29 2024 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.12.3-1
 - Release 5.12.3
 * Mon Jan 22 2024 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 5.12.2-1
