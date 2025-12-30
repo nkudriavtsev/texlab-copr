@@ -1,5 +1,5 @@
 Name: texlab
-Version: 5.25.0
+Version: 5.25.1
 Release: 1%{?dist}
 Summary: texlab language server
 License: GPL-3.0
